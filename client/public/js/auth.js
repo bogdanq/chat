@@ -69,7 +69,6 @@ $(document).ready(() => {
         <div class="message my-message" dir="auto">${message.content}</div>
     </li>`
 
-<<<<<<< HEAD
     $(html)
       .hide()
       .appendTo('.chat-history ul')
@@ -81,10 +80,3 @@ $(document).ready(() => {
     )
   }
 })
-=======
-    $(html).hide().appendTo('.chat-history ul').slideDown(200);
-
-    $(".chat-history").animate({ scrollTop: $('.chat-history')[0].scrollHeight}, 100);
-  }
-});
->>>>>>> 3d5334ca1c3039c72283baac2b93de468ff265b6

@@ -5,7 +5,7 @@
 }
 
 body {
-    background: #C5DDEB;
+    background: #29a6ef;
     font-family: "Roboto", sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
@@ -121,12 +121,12 @@ body {
     width: 0;
     position: absolute;
     pointer-events: none;
-    border-bottom-color: #86BB71;
+    border-bottom-color: #29a6ef;
     border-width: 10px;
     margin-left: -10px;
 }
 .chat .chat-history .my-message {
-    background: #86BB71;
+    background: #29a6ef;
 }
 .chat .chat-message, .room .room-create {
     padding: 20px;
@@ -204,12 +204,13 @@ body {
     padding: 15px;
     box-sizing: border-box;
     font-size: 14px;
+    border: 1px solid #29a6ef;
 }
 .form button {
     font-family: "Roboto", sans-serif;
     text-transform: uppercase;
     outline: 0;
-    background: #86BB71;
+    background: #bb7182;
     width: 100%;
     border: 0;
     padding: 15px;
@@ -220,7 +221,7 @@ body {
     cursor: pointer;
 }
 .form button:hover:enabled,.form button:active,.form button:focus {
-    background: #89c771;
+    background: #29a6ef;
 }
 .form .message, .room-create .message {
     margin: 15px 0 0;
@@ -228,7 +229,7 @@ body {
     font-size: 12px;
 }
 .form .message a {
-    color: #86BB71;
+    color: #bb7182;
     text-decoration: none;
 }
 .form .register-form {
@@ -295,7 +296,7 @@ ul {
     float: right;
     text-transform: uppercase;
     outline: 0;
-    background: #86BB71;
+    background: #bb7182;
     border: 0;
     padding: 15px;
     color: #FFFFFF;
@@ -305,17 +306,15 @@ ul {
     cursor: pointer;
 }
 button:hover:enabled, button:active, button:focus {
-    background: #89c771;
+    background: #bb7182;
 }
 a.rooms-btn:hover:enabled, a.rooms-btn:active, a.rooms-btn:focus {
-    background: #89c771;
+    background: #bb7182;
 }
 a.logout-btn{
-    background-color: rgb(226, 98, 92);
+    background-color: #bb7182;
 }
-a.logout-btn:hover:enabled, a.logout-btn:active, a.logout-btn:focus {
-    background-color: rgb(245, 106, 99);
-}
+
 .controls {
     float: right;
     margin: 0;

@@ -25,7 +25,7 @@ $('.logout-btn').on('click', (e) => {
 })
 
 $(document).ready(() => {
-  let socket = io.connect('http://localhost:3000')
+  let socket = io.connect('http://localhost:8000')
   socket.on('connected', function(msg) {
     socket.emit('receiveHistory')
   })

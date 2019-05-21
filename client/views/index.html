@@ -3,7 +3,7 @@
 	<head>
 		<meta charset="UTF-8" />
 		<title>Node chat</title>
-		<script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+		<script src="/assets/js/jq.js"></script>
 		<link rel="stylesheet" href="./assets/css/style.css" />
 		{% if not error %}
 		<script src="/socket.io/socket.io.js"></script>
@@ -17,14 +17,14 @@
 					<form class="register" method="post" style="display: none;">
 						<input type="text" name="username" placeholder="username" />
 						<input type="password" name="password" placeholder="password" />
-						<p id='hasError'>Ошибка</p>
+						<p id='hasError'></p>
 						<button type="submit">Создать</button>
 						<p class="message">Есть аккаунт? <a href="#">Войти</a></p>
 					</form>
 					<form class="login" method="post">
 						<input type="text" name="username" placeholder="username" />
 						<input type="password" name="password" placeholder="password" />
-						<p id='hasError'>Ошибка</p>
+						<p id='hasError'></p>
 						<button type="submit">Войти</button>
 						<p class="message">
 						Нету аккаунта? <a href="#">Создайте новый</a>

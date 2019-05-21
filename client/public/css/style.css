@@ -357,3 +357,7 @@ a.logout-btn{
 button:disabled {
     background: gray;
 }
+
+#hasError {
+    color: red
+}

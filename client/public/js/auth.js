@@ -25,7 +25,7 @@ $('.logout-btn').on('click', (e) => {
 })
 
 $(document).ready(() => {
-  let socket = io.connect('http://localhost:8000')
+  let socket = io.connect('https://pure-dusk-80730.herokuapp.com')
   socket.on('connected', function(msg) {
     socket.emit('receiveHistory')
   })
